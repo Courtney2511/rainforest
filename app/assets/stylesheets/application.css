@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: arial;
+}
+
+/* -- Products Page -- */
+
+.products {
+  border: 1px solid;
+  margin: 1px;
+}
+
+
+/* -- Reviews -- */
+
+.small_print {
+  font-size: 10px;
+}
+
+.comment {
+  background-color: #AEB6BD;
+}

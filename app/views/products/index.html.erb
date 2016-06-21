@@ -2,6 +2,8 @@
 <%= link_to "Add a New Product", "/products/new" %>
 
 <% @products.each do |product| %>
+  <div class="products">
   <p><%= link_to product.name.capitalize, product_path(product.id) %> $<%= product.formatted_price %></p>
   <p><%= product.description %></p>
+</div>
 <% end %>
